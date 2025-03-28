@@ -1,0 +1,28 @@
+
+
+:root {
+    /* TODO: how to prevent JetBrains from flagging the var when colour is defined in Mantine theme*/
+    --mantine-color-soil-9: #844f29;}
+
+/*navbar {background-color:transparent !important}*/
+
+footer {background-color:transparent !important}
+
+header {background-color:#39ACCE !important}
+
+.footer_icon {
+/*margin-top: -0.5rem; !*TODO: fix in componment, shifted to avoid shadow clipping in footer *!*/
+width: auto;
+height: 80%;
+vertical-align: middle;
+filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 1)); }
+
+.mobile_toolbar{
+
+background-color: var(--mantine-color-soil-9) !important;
+background-image: url("/assets/images/ui/wood_bg_02.png");
+background-size: 80% ;
+}
+
+.softwhite{
+background-color:rgba(255,255,255,0.8) !important;}

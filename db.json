@@ -1,0 +1,239 @@
+{
+  "users" : [
+    {
+      "id": 1,
+      "firstName": "Alex",
+      "lastName": "Johnson",
+      "email": "alex_johnson13@gmail.com",
+      "username": "Squirrelnator99",
+      "nestTotal": 100,
+      "activityRate": 8,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Ella",
+      "lastName": "Williams",
+      "email": "ella.williams24@yahoo.com",
+      "username": "CrazyCatLady42",
+      "nestTotal": 50,
+      "activityRate": 7,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 3,
+      "firstName": "Mark",
+      "lastName": "Davis",
+      "email": "mark.davis35@hotmail.com",
+      "username": "OctopusOverlord90",
+      "nestTotal": 200,
+      "activityRate": 9,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 4,
+      "firstName": "Lily",
+      "lastName": "Taylor",
+      "email": "lily.taylor11@gmail.com",
+      "username": "UnicornPrincess88",
+      "nestTotal": 30,
+      "activityRate": 6,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 5,
+      "firstName": "Mike",
+      "lastName": "Wilson",
+      "email": "michael.wilson2@yahoo.com",
+      "username": "DolphinDean99",
+      "nestTotal": 150,
+      "activityRate": 8,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 6,
+      "firstName": "Sarah",
+      "lastName": "Harris",
+      "email": "sarah.harris33@hotmail.com",
+      "username": "KangarooJumper22",
+      "nestTotal": 80,
+      "activityRate": 7,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 7,
+      "firstName": "Emily",
+      "lastName": "Miller",
+      "email": "emily.miller16@gmail.com",
+      "username": "PenguinProfessor77",
+      "nestTotal": 40,
+      "activityRate": 6,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 8,
+      "firstName": "Tom",
+      "lastName": "Martin",
+      "email": "tom.martin4@yahoo.com",
+      "username": "ElephantExpert88",
+      "nestTotal": 120,
+      "activityRate": 8,
+      "nest": {
+        "items": []
+  }
+    },
+    {
+      "id": 9,
+      "firstName": "Olivia",
+      "lastName": "Brown",
+      "email": "olivia.brown9@gmail.com",
+      "username": "ButterflyBotanist99",
+      "nestTotal": 60,
+      "activityRate": 7,
+      "nest": {
+      "items": []
+    }
+    },
+    {
+      "id": 10,
+      "firstName": "Ben",
+      "lastName": "Jones",
+      "email": "benjamin.jones33@hotmail.com",
+      "username": "LionLord88",
+      "nestTotal": 180,
+      "activityRate": 9,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 11,
+      "firstName": "Sophia",
+      "lastName": "Thomas",
+      "email": "sophia.thomas22@gmail.com",
+      "username": "MonkeyBusinessOwner99",
+      "nestTotal": 90,
+      "activityRate": 8,
+      "nest": {
+        "items": []
+      }
+    },
+    {
+      "id": 12,
+      "firstName": "Ava",
+      "lastName": "White",
+      "email": "ava.white11@yahoo.com",
+      "username": "ParrotPilot88",
+      "nestTotal": 110,
+      "activityRate": 8,
+      "nest": {
+        "items": []
+      }
+    }
+  ],
+  "cards" : [
+    {
+      "id" : "1",
+      "taxon_id" : 48586,
+      "imgSrc" : "cepaea_nemoralis.png",
+      "nickname" : "Nemo",
+      "mnemonic" : "nemo",
+      "created" : 1704067200
+    },
+    {
+      "id" : "2",
+      "taxon_id" : 99901,
+      "imgSrc" : "enallagma_cyathigerum.png",
+      "nickname" : "Cya",
+      "mnemonic" : "cya",
+      "created" : 1706745600
+    },
+    {
+      "id" : "3",
+      "taxon_id" : 59442,
+      "imgSrc" : "chrysopa_rufilabris.png",
+      "nickname" : "Fila",
+      "mnemonic" : "fila",
+      "created" : 1709251200
+    },
+    {
+      "id" : "4",
+      "taxon_id" : 47219,
+      "imgSrc" : "apis_mellifera.png",
+      "nickname" : "Melli",
+      "mnemonic" : "melli",
+      "created" : 1711929600
+    },
+    {
+      "id" : "5",
+      "taxon_id" : 347465,
+      "imgSrc" : "formica_rufibarbis.png",
+      "nickname" : "Barbi",
+      "mnemonic" : "barbi",
+      "created" : 1714521600
+    },
+    {
+      "id" : "6",
+      "taxon_id" : 48987,
+      "imgSrc" : "hippodamia_convergens.png",
+      "nickname" : "Connie",
+      "mnemonic" : "con",
+      "created" : 1717200000
+    },
+    {
+      "id" : "7",
+      "taxon_id" : 81545,
+      "imgSrc" : "lumbricus_terrestris.png",
+      "nickname" : "Terry",
+      "mnemonic" : "terr",
+      "created" : 1719792000
+    },
+    {
+      "id" : "8",
+      "taxon_id" : 67691,
+      "imgSrc" : "lophocampa_maculata.png",
+      "nickname" : "Lata",
+      "mnemonic" : "lata",
+      "stages" : {
+        "egg" : "",
+        "larva" : 10,
+        "pupa" : "",
+        "adult" : 8
+      },
+      "current_stage" : "adult",
+      "can_morph" : true,
+      "created" : 1722470400
+    },
+    {
+      "id" : "9",
+      "taxon_id" : 494559,
+      "imgSrc" : "polydrusus_formosus.png",
+      "nickname" : "Formo",
+      "mnemonic" : "formo",
+      "created" : 1725062400
+    },
+    {
+      "id" : "11",
+      "taxon_id" : 56083,
+      "imgSrc" : "armadillidiidae.png",
+      "nickname" : "Gary",
+      "mnemonic" : "gar",
+      "can_morph" : false,
+      "created" : 1730332800
+    }
+  ]
+}

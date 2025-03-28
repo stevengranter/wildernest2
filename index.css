@@ -1,0 +1,35 @@
+
+body {text-wrap:pretty}
+
+header {background-image: none;background-color:transparent}
+
+h1,h2,h3,h4,h5,h6 {color:var(--mantine-color-soil-9)}
+
+.truculenta-wild {
+                 font-family: "Truculenta", sans-serif;
+                 font-optical-sizing: auto;
+                 font-weight: 400;
+                 font-style: normal;
+                 font-variation-settings:
+                         "wdth" 100;
+             }
+
+/*!* TODO: Define as MantineGradient *!*/
+
+/*!*body {background: #003366;*!*/
+/*!*    !*background: linear-gradient(180deg, rgba(1,184,255,1) 200px, rgba(1,184,255,1) 15%, rgba(39,197,255,1) 49%, rgba(39,215,255,1) 60%, rgba(223,252,255,1) 95%)*/
+/* *!*/
+
+/*body {background-color: #FAFFF3}*/
+
+
+/*!*header {background-image:url("/assets/images/ui/tree-bark-512-seamless.png")}*!*/
+/*header {background:linear-gradient(0deg,rgba(177,237,92,1) 0%, rgba(177,237,92,1) 15%, rgba(123,172,30,1) 90%)}*/
+
+/*!*footer {background-image:url("/assets/images/ui/tree-bark-512-seamless.png")}*!*/
+/*footer {background: linear-gradient(180deg,rgba(177,237,92,1) 0%, rgba(177,237,92,1) 10%, rgba(119,153,55,1) 90%)}*/
+
+/*nav {background: linear-gradient(180deg,rgba(177,237,92,1) 0%, rgba(177,237,92,1) 10%, rgba(119,153,55,1) 90%)}*/
+
+
+
