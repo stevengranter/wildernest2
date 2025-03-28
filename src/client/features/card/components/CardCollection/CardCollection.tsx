@@ -1,8 +1,6 @@
-import { TransitionGroup, CSSTransition } from "react-transition-group"
-
-import { SimpleGrid, Text } from "@mantine/core"
-import { useLogger } from "../../../../dev.js"
-import { WildCard } from "../WildCard/WildCard.jsx"
+import {SimpleGrid, Text} from "@mantine/core"
+import {useLogger} from "../../../../dev.js"
+import {WildCard} from "../WildCard/WildCard.jsx"
 
 export default function CardCollection({
   itemIdArray,
@@ -31,21 +29,19 @@ export default function CardCollection({
           spacing={{ base: "lg" }}
           verticalSpacing={{ base: "lg" }}
         >
-          <TransitionGroup component={null} key={collectionId}>
+          <div key={collectionId}>
             {itemIdArray.length > 0 &&
               itemIdArray?.map((taxon_id) => {
                 return (
-                  <CSSTransition
+                  <div
                     key={taxon_id}
-                    classNames="card"
-                    timeout={500}
-                    unmountOnExit
+                    className="card"
                   >
                     <WildCard taxonId={taxon_id} />
-                  </CSSTransition>
+                  </div>
                 )
               })}
-          </TransitionGroup>
+          </div>
         </SimpleGrid>
         {/*</Grid>*/}
       </>
