@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon -w src/server -x tsx src/server/main.ts",
-    "start": "NODE_ENV=production tsx src/server/main.ts",
-    "build": "vite build"
+    "start:ts": "NODE_ENV=production tsx src/server/main.ts",
+    "build": "npm run prebuild && vite build && tsc -p src/server/tsconfig.json",
+    "prebuild": "rm -rf dist"
   },
   "dependencies": {
     "@mantine/core": "^7.17.3",
@@ -37,6 +38,6 @@
     "@types/react-dom": "^18.2.16",
     "@vitejs/plugin-react": "^4.2.0",
     "nodemon": "^3.0.1",
-    "vite": "^5.0.2"
+    "vite": "^6.2.3"
   }
 }
