@@ -49,6 +49,7 @@ export default function WelcomePage() {
           All data entered is stored in your web browser settings on your own
           device. No user data is stored or backed up online.
         </Alert>
+
       </DefaultPaper>
     </Flex>
   )

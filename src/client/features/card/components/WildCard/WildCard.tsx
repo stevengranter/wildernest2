@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react"
-import ReactCardFlip from "react-card-flip"
+import {FlipCard} from "../../../../components/ui/FlipCard";
 
 import {
   ActionIcon,
@@ -91,21 +91,23 @@ export function WildCard({ taxonId, dataObject, restProps }: WildCardProps) {
     //     xxl: 2,
     //   }}
     // >
-    <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+    <FlipCard>
       <WildCard_Front
         iNatdata={iNatData}
         isLoading={iNatQuery.isLoading}
+        handleFlip={handleFlip}
         // wilderNestData={wilderNestData}
-        onFlip={(e: React.MouseEvent) => handleFlip(e)}
+        // onFlip={(e: React.MouseEvent) => handleFlip(e)}
         {...restProps}
       />
       <WildCard_Back
         iNatdata={iNatData}
         isLoading={iNatQuery.isLoading}
-        onFlip={(e: React.MouseEvent) => handleFlip(e)}
+        handleFlip={handleFlip}
+        // onFlip={(e: React.MouseEvent) => handleFlip(e)}
         {...restProps}
       />
-    </ReactCardFlip>
+    </FlipCard>
     // </GridCol>
   )
 }
@@ -113,13 +115,13 @@ export function WildCard({ taxonId, dataObject, restProps }: WildCardProps) {
 function WildCard_Front({
   iNatdata,
   isLoading,
-  onFlip,
+  handleFlip,
   // wilderNestData,
   ...restProps
 }: {
   iNatdata: iNatTaxonRecord | null
   isLoading: boolean
-  onFlip?: (e: React.MouseEvent) => void
+  handleFlip?: (e: React.MouseEvent) => void
   wilderNestData?: WilderKindCardType | null
 }) {
   const theme = useMantineTheme()
@@ -151,7 +153,7 @@ function WildCard_Front({
                 <ActionIcon
                   radius="xl"
                   size="lg"
-                  onClick={onFlip}
+                  onClick={handleFlip}
                   m="xs"
                   aria-label="Flip card"
                   // opacity="75%"
@@ -172,12 +174,12 @@ function WildCard_Front({
 function WildCard_Back({
   iNatdata,
   isLoading,
-  onFlip,
+  handleFlip,
   ...restProps
 }: {
   iNatdata: iNatTaxonRecord | null
   isLoading: boolean
-  onFlip?: (e: React.MouseEvent) => void
+  handleFlip?: (e: React.MouseEvent) => void
   _wilderNestData?: WilderKindCardType | null
 }) {
   // const theme = useMantineTheme()
@@ -207,7 +209,7 @@ function WildCard_Back({
                     <ActionIcon
                       radius="xl"
                       size="lg"
-                      onClick={onFlip}
+                      onClick={handleFlip}
                       m="xs"
                       aria-label="Flip card"
                     >
