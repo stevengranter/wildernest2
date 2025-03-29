@@ -1,17 +1,19 @@
 import React from "react"
 import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
+    createBrowserRouter,
+    createRoutesFromElements,
+    Route,
 } from "react-router-dom"
 
-import { WildCard } from "./features/card/components/WildCard/WildCard"
+import {WildCard} from "./features/card/components/WildCard/WildCard"
 import CardsPage from "./features/card/pages/CardsPage"
 import CollectionsPage from "./features/collections/pages/CollectionsPage"
 import WelcomePage from "./features/home/pages/WelcomePage"
 import SearchPage from "./features/search/pages/SearchPage"
-import UserManagement from "./features/user-management/components/UserManagement"
+import UserManagement
+    from "./features/user-management/components/UserManagement"
 import DefaultLayout from "./theme/DefaultLayout"
+import LoginPage from "./pages/login/LoginPage";
 
 export const router: ReturnType<typeof createBrowserRouter> =
   createBrowserRouter(
@@ -23,6 +25,9 @@ export const router: ReturnType<typeof createBrowserRouter> =
         <Route path="users">
           <Route element={<UserManagement />} index></Route>
         </Route>
+          <Route path="login">
+              <Route element={<LoginPage />} index></Route>
+          </Route>
         /* /cards */
         <Route path="cards">
           <Route element={<CardsPage />} index></Route>

@@ -7,20 +7,13 @@
 .card.preEnter,
 .card.exiting {
     opacity: 0;
-    transition: opacity 1000ms ease-in;}
+    transition: opacity 1000ms ease-in;
 }
 
 .card.exited {
     display: none;
 }
 
-
-/*.card-exit {*/
-/*opacity: 1;}*/
-
-/*.card-exit-active {*/
-/*opacity: 0;*/
-/*transition: opacity 250ms ease-in;}*/
 
 
 

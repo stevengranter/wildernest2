@@ -1,7 +1,7 @@
 import {
   createTheme,
   DefaultMantineColor,
-  MantineColorsTuple,
+  MantineColorsTuple
 } from "@mantine/core"
 
 type ExtendedCustomColors =
@@ -17,7 +17,7 @@ declare module "@mantine/core" {
   }
 }
 
-export const defaultTheme = createTheme({
+const theme = createTheme({
   breakpoints: {
     xs: "30em",
     sm: "48em",
@@ -80,3 +80,5 @@ export const defaultTheme = createTheme({
     },
   },
 })
+
+export default theme
