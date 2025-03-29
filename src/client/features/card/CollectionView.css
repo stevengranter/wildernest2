@@ -1,10 +1,28 @@
 
-.card-exit {
-opacity: 1;}
 
-.card-exit-active {
-opacity: 0;
-transition: opacity 250ms ease-in;}
+.card {
+    transition: all 0.75s;
+}
+
+.card.preEnter,
+.card.exiting {
+    opacity: 0;
+    transition: opacity 1000ms ease-in;}
+}
+
+.card.exited {
+    display: none;
+}
+
+
+/*.card-exit {*/
+/*opacity: 1;}*/
+
+/*.card-exit-active {*/
+/*opacity: 0;*/
+/*transition: opacity 250ms ease-in;}*/
+
+
 
 .mantine-Select-input {
     font-family: "Truculenta",
